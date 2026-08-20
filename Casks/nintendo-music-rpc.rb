@@ -20,7 +20,7 @@ cask "nintendo-music-rpc" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Nintendo Music RPC.app"
 
